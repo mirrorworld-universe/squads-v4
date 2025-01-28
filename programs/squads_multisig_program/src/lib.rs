@@ -23,17 +23,17 @@ mod utils;
 
 #[cfg(not(feature = "no-entrypoint"))]
 security_txt! {
-    name: "Squads Multisig Program",
-    project_url: "https://squads.so",
-    contacts: "email:security@sqds.io,email:contact@osec.io",
-    policy: "https://github.com/Squads-Protocol/v4/blob/main/SECURITY.md",
+    name: "Squads Multisig Program (Forked by Sonic SVM)",
+    project_url: "https://sonic.game",
+    contacts: "email:security@sonic.game,email:operators@sonic.game",
+    policy: "https://github.com/mirrorworld-universe/squads-v4/blob/main/SECURITY.md",
     preferred_languages: "en",
-    source_code: "https://github.com/squads-protocol/v4",
+    source_code: "https://github.com/mirrorworld-universe/squads-v4",
     auditors: "OtterSec, Neodyme"
 }
 
 #[cfg(not(feature = "testing"))]
-declare_id!("SQDS4ep65T869zMMBKyuUq6aD6EgTu8psMjkvj52pCf");
+declare_id!("sqdsFBUUwbsuoLUhoWdw343Je6mvn7dGVVRYCa4wtqJ");
 
 #[cfg(feature = "testing")]
 declare_id!("GyhGAqjokLwF9UXdQ2dR5Zwiup242j4mX4J1tSMKyAmD");
