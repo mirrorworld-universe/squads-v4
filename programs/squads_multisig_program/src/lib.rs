@@ -36,7 +36,7 @@ security_txt! {
 declare_id!("sqdsFBUUwbsuoLUhoWdw343Je6mvn7dGVVRYCa4wtqJ");
 
 #[cfg(feature = "testing")]
-declare_id!("GyhGAqjokLwF9UXdQ2dR5Zwiup242j4mX4J1tSMKyAmD");
+declare_id!("sqdsFBUUwbsuoLUhoWdw343Je6mvn7dGVVRYCa4wtqJ");
 
 #[program]
 pub mod squads_multisig_program {

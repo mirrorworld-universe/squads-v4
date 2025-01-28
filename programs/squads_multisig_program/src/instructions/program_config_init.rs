@@ -10,7 +10,7 @@ use crate::state::*;
 const INITIALIZER: Pubkey = pubkey!("Ax1jViczfkTfELcFXqKKeZUgczBmN4X2Rt7yrcoGM7R");
 
 #[cfg(feature = "testing")]
-const INITIALIZER: Pubkey = pubkey!("BrQAbGdWQ9YUHmWWgKFdFe4miTURH71jkYFPXfaosqDv");
+const INITIALIZER: Pubkey = pubkey!("Ax1jViczfkTfELcFXqKKeZUgczBmN4X2Rt7yrcoGM7R");
 
 #[derive(AnchorSerialize, AnchorDeserialize)]
 pub struct ProgramConfigInitArgs {
